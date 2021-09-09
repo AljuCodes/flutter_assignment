@@ -28,9 +28,7 @@ class _MainAppState extends State<MainApp> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              mainText,
-            ),
+            Text(mainText, style: const TextStyle(fontStyle: FontStyle.italic)),
             // ignore: deprecated_member_use
             TextControl(changetext: changeText1)
           ],
